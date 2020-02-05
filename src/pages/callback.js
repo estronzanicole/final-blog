@@ -1,12 +1,12 @@
 import React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 // import { logout } from "../utils/auth"
 
 const Callback = () => {
     return (
         <>
             <p>Callback</p>
-            <nav>
+            {/* <nav>
                 <Link to="/">Home</Link>{" "}
                 <Link to="/account/">My Account</Link>{" "}
                 <a
@@ -17,8 +17,8 @@ const Callback = () => {
                     }}
                 >
                     Log Out
-        </a>
-            </nav>
+        </a> */}
+            {/* </nav> */}
         </>
     )
 }
